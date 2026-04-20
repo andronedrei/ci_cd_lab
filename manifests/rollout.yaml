@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/andronedrei/ci_cd_lab:latest
+          image: ghcr.io/andronedrei/ci_cd_lab:tag
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
